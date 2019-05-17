@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="style.css">
+    <STYLE>
+A {text-decoration: none;}
+</STYLE>
+</head>
+<body class="log">
+<form action="http://localhost/client Side/Login.py" method="POST">
+    <div class="login-box">
+        <h1>
+            Login
+        </h1>
+        <div class="textbox">
+            <i class="fa fa-user" aria-hidden="true">
+            </i>
+            <input type="text" name="u_name" placeholder="Username" required=""  oninvalid="this.setCustomValidity('Please Enter valid email')">
+        </div>
+        <div class="textbox">
+            <i class="fa fa-lock" aria-hidden="true"></i>
+            <input type="password" name="u_pwd" placeholder="Password" required>
+        </div>
+        <input class="btn" type="submit"  value="Login">
+        <div class="link-box">
+            <a href="HotelReg.html" class="linkbox" style="color:white;">
+                Register Your Hotel
+            </a><br><br>
+            <a href="Register.html" class="linkbox" style="color:white;">
+                SignUp
+            </a><br><br>
+            <a href="forgotpasswd.html" class="linkbox" style="color:white;">
+                Forgot Password
+            </a>
+        </div>
+    </div>
+</form>
+</body>
+</html>

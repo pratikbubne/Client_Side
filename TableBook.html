@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Table Booking</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="table">
+<form action="http://localhost/Client Side/booktable.py" method="POST">
+        <div class="title">
+            Table Booking...
+        </div>
+    <div class="tbl-Box">
+        <h1>
+            Customer Info
+        </h1>
+        <div class="textbox">
+            <i class="fa fa-user" aria-hidden="true"></i>
+            <input type="text" name="c_name" placeholder="Customer name" required>
+        </div>
+        <div class="textbox">
+            <i class="fa fa-mobile" aria-hidden="true"></i>
+            <input type="number" name="c_mobile" placeholder="Mobile">
+        </div>
+        <div class="textbox">
+            <i class="fa fa-inr" aria-hidden="true"></i>
+            <input type="number" name="payment" placeholder="Pay minimum 500" required>
+        </div>
+        <a href="Last.html">
+            <input class="btn" type="submit" value="Reserved">
+        </a>
+        <input class="btn" type="reset" value="Reset">
+        <input class="btn" type="button" value="Booking Cancel" onclick="window.location.href='BookingCancle.html'">
+        <!-- Booking Requirement -->
+        <div class="tbl-Box1">
+            <h1>
+                Booking Requirement
+            </h1>
+        <div class="textbox">
+            <i class="fa fa-users" aria-hidden="true"></i>
+            <input type="number" name="ttl_ppl" placeholder="Total people" required>
+        </div>
+            <div class="textbox">
+                <i class="fa fa-clock-o" aria-hidden="true"></i>
+                <input type="time" name="time" placeholder="time" required>
+            </div>
+            <div class="textbox">
+                <i class="fa fa-calendar-o" aria-hidden="true"></i>
+                <input type="date" name="date" placeholder="dd/mm/yyyy" required>
+            </div>
+            <div class="textbox">
+                <i class="fa fa-h-square" aria-hidden="true"></i>
+                <input type="text" name="h_code" placeholder="Hotel Code" required>
+            </div>
+        </div>
+    </div>
+</form>
+</body>
+</html>

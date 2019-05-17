@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sign up</title>
+     <link rel="stylesheet" href="style.css">
+</head>
+<body class="res">
+<div class="sign-Box">
+    <form action="http://localhost/Client Side/UserReg.py" method="POST">
+        <h1>
+            Sign Up
+        </h1>
+        <div class="textbox">
+            <i class="fa fa-user-o" aria-hidden="true"></i>
+            <input type="text"  name="fname" placeholder="First Name" required>
+        </div>
+        <div class="textbox">
+            <i class="fa fa-user-o" aria-hidden="true"></i>
+            <input type="text"  name="lname" placeholder="Last Name" required>
+        </div>
+        <div class="textbox">
+            <i class="fa fa-envelope-o" aria-hidden="true"></i>
+            <input type="text" name="umail" placeholder="Mail" required>
+        </div>
+        <div class="textbox">
+            <i class="fa fa-mobile" aria-hidden="true"></i>
+            <input type="number" name="umob" placeholder="Mobile" required>
+        </div>
+        <div class="textbox">
+            <i class="fa fa-address-card-o" aria-hidden="true">   </i>
+            <input type="text" name="uaddrs" placeholder="Address" required>
+        </div>
+       <div class="textbox">
+            <i class="fa fa-lock" aria-hidden="true"></i>
+            <input type="password" name="pwd" placeholder="Password" required>
+        </div>
+        <input class="btn" type="submit", value="Submit">
+        <input class="btn" type="reset" value="Reset">
+</form>
+</div>
+</body>
+</html>
